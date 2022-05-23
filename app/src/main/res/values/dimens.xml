@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="guidelines_margin_padding_16dp">16dp</dimen>
+    <dimen name="guidelines_margin_padding_8dp">8dp</dimen>
+    <dimen name="weather_app_item_layout_weather_data_card_width">200dp</dimen>
+    <dimen name="weather_app_item_layout_weather_data_card_height">225dp</dimen>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DataHeading" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textAlignment">center</item>
+    </style>
+</resources>

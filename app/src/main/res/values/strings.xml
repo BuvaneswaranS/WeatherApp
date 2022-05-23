@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">WeatherAppForecast</string>
+
+    <string name="weatherApp_main_activity_current_weather_button">Current Weather</string>
+    <string name="weatherApp_main_activity_hourly_forecast_heading_text">Hourly Forecast</string>
+    <string name="weatherApp_main_activity_five_days_three_hours_forecast_heading_text">Five Days Three Hours Forecast</string>
+    <string name="weatherApp_main_activity_seven_days_forecast_heading_text">Daily Forecast</string>
+    <string name="weatherApp_main_activity_current_weather_cloud_text">Clouds</string>
+    <string name="weatherApp_main_activity_current_weather_dew_point_text">Dew Point</string>
+    <string name="weatherApp_main_activity_current_weather_date_text">Date</string>
+    <string name="weatherApp_main_activity_current_weather_feels_like_text">Feels like</string>
+    <string name="weatherApp_main_activity_current_weather_pressure_text">Pressure</string>
+    <string name="weatherApp_main_activity_current_weather_humidity_text">Humidity</string>
+    <string name="weatherApp_main_activity_current_weather_sunrise_text">Sunrise</string>
+    <string name="weatherApp_main_activity_current_weather_sunset_text">Sunset</string>
+    <string name="weatherApp_main_activity_current_weather_temp_text">Temperature</string>
+    <string name="weatherApp_main_activity_current_weather_UVI_text">UVI</string>
+    <string name="weatherApp_main_activity_current_weather_visibility_text">Visibility</string>
+    <string name="weatherApp_main_activity_current_weather_wind_deg_text">WindDeg</string>
+    <string name="weatherApp_main_activity_current_weather_wind_dust_text">Wind Gust</string>
+    <string name="weatherApp_main_activity_current_weather_wind_speed_text">Wind Speed</string>
+    <string name="weatherApp_main_activity_current_weather_description_text">Description</string>
+    <string name="weatherApp_main_activity_current_weather_icon_text">Icon</string>
+    <string name="weatherApp_main_activity_current_weather_id_text">Id</string>
+    <string name="weatherApp_main_activity_current_weather_main_text">Main</string>
+
+    <string name="weatherApp_menu_item_switch_text_celsius">Celsius</string>
+    <string name="weatherApp_menu_item_switch_text_fahrenheit">Fahrenheit</string>
+
+
+</resources>
