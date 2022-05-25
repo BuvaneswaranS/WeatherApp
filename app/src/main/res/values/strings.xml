@@ -1,10 +1,13 @@
 <resources>
+
     <string name="app_name">WeatherAppForecast</string>
+    <string name="weatherApp_api_key">4c1feac1eb2810fdff96b335bb289373</string>
 
     <string name="weatherApp_main_activity_current_weather_button">Current Weather</string>
     <string name="weatherApp_main_activity_hourly_forecast_heading_text">Hourly Forecast</string>
     <string name="weatherApp_main_activity_five_days_three_hours_forecast_heading_text">Five Days Three Hours Forecast</string>
     <string name="weatherApp_main_activity_seven_days_forecast_heading_text">Daily Forecast</string>
+
     <string name="weatherApp_main_activity_current_weather_cloud_text">Clouds</string>
     <string name="weatherApp_main_activity_current_weather_dew_point_text">Dew Point</string>
     <string name="weatherApp_main_activity_current_weather_date_text">Date</string>
@@ -21,11 +24,16 @@
     <string name="weatherApp_main_activity_current_weather_wind_speed_text">Wind Speed</string>
     <string name="weatherApp_main_activity_current_weather_description_text">Description</string>
     <string name="weatherApp_main_activity_current_weather_icon_text">Icon</string>
-    <string name="weatherApp_main_activity_current_weather_id_text">Id</string>
+    <string name="weatherApp_main_activity_current_weather_city_text">City Name</string>
     <string name="weatherApp_main_activity_current_weather_main_text">Main</string>
 
     <string name="weatherApp_menu_item_switch_text_celsius">Celsius</string>
     <string name="weatherApp_menu_item_switch_text_fahrenheit">Fahrenheit</string>
+
+    <string name="weatherApp_dialog_Fragment_city_name_heading">Change city name</string>
+    <string name="weatherApp_dialog_Fragment_city_name_cancel_button">Cancel</string>
+    <string name="weatherApp_dialog_Fragment_city_name_change_button">Change</string>
+    <string name="weatherApp_dialog_Fragment_city_name_edit_text_hint">City name</string>
 
 
 </resources>

@@ -2,6 +2,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <item android:id="@+id/search_weather_based_city_button"
+        android:title=""
+        app:showAsAction="always"
+        android:icon="@drawable/ic_search_temperature_based_city_button_icon"/>
+
     <item android:id="@+id/temperature_change_switch_button"
         android:title=""
         app:showAsAction="always"

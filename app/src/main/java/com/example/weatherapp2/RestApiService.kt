@@ -1,5 +1,6 @@
 package com.example.weatherapp2
 
+import com.example.weatherapp2.CurrentCityName.CurrentCityWeatherReport
 import com.example.weatherapp2.five_days_three_hour_forecast.WeatherReportFiveDayThreeHour
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import kotlinx.coroutines.Deferred
@@ -19,6 +20,12 @@ interface RestApiService{
 
     @GET("/data/2.5/forecast?")
     fun getWeatherReportFiveDayThreeHrsReport(@Query("lat") lat: String, @Query("lon") lon: String, @Query("appid") appid: String): Deferred<WeatherReportFiveDayThreeHour>
+
+//    https://api.openweathermap.org/data/2.5/weather?q={cityName}&appid={API key}
+
+    @GET("data/2.5/weather?")
+    fun getWeatherReportCity(@Query("q") cityNameCountryCode: String, @Query("appid") apiKey: String): Deferred<CurrentCityWeatherReport>
+
 }
 
 object ApiService{
